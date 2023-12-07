@@ -1,0 +1,225 @@
+{
+  "objects": [],
+  "usingPatchesV2": true,
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 170
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "fromPatch": "port_forwarding_patch_model:799265-565b88f8-bfc0-461d-a30c-bc378bac795a",
+        "fromPort": "2822362267071090403",
+        "identifier": "patch_connection_model:207928-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:207598-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:207598-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+        "fromPort": "107",
+        "identifier": "patch_connection_model:207934-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:207526-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "template_patch_model:207598-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:207944-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:207798-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "template_patch_model:207798-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:929769-4e2d8f09-7549-4e8a-8aa4-97d0263da281",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:929646-4e2d8f09-7549-4e8a-8aa4-97d0263da281",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:207526-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:929771-4e2d8f09-7549-4e8a-8aa4-97d0263da281",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:929646-4e2d8f09-7549-4e8a-8aa4-97d0263da281",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "template_patch_model:929646-4e2d8f09-7549-4e8a-8aa4-97d0263da281",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:929893-4e2d8f09-7549-4e8a-8aa4-97d0263da281",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:929786-4e2d8f09-7549-4e8a-8aa4-97d0263da281",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:929786-4e2d8f09-7549-4e8a-8aa4-97d0263da281",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:929895-4e2d8f09-7549-4e8a-8aa4-97d0263da281",
+        "modelName": "patch_connection_model",
+        "toPatch": "port_forwarding_patch_model:799307-565b88f8-bfc0-461d-a30c-bc378bac795a",
+        "toPort": "15249886221181259793"
+      }
+    ],
+    "patches": [
+      {
+        "groupDescription": "This patch will help you easily center 3D text",
+        "groupName": "3D_Text_center_paramonovkos",
+        "identifier": "patch_group_model:799249-565b88f8-bfc0-461d-a30c-bc378bac795a",
+        "inputPorts": [
+          "patch_input_port_model:799741-565b88f8-bfc0-461d-a30c-bc378bac795a"
+        ],
+        "modelName": "patch_group_model",
+        "name": "3D_Text_center_paramonovkos",
+        "outputPorts": [
+          "patch_output_port_model:799755-565b88f8-bfc0-461d-a30c-bc378bac795a"
+        ],
+        "position": [
+          -484,
+          -892
+        ],
+        "subpatches": [
+          "port_forwarding_patch_model:799265-565b88f8-bfc0-461d-a30c-bc378bac795a",
+          "port_forwarding_patch_model:799307-565b88f8-bfc0-461d-a30c-bc378bac795a",
+          "template_patch_model:207526-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+          "template_patch_model:207598-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+          "template_patch_model:207798-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+          "template_patch_model:929646-4e2d8f09-7549-4e8a-8aa4-97d0263da281",
+          "template_patch_model:929786-4e2d8f09-7549-4e8a-8aa4-97d0263da281"
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:799265-565b88f8-bfc0-461d-a30c-bc378bac795a",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Object_3DText",
+        "position": [
+          -604,
+          -100
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:799307-565b88f8-bfc0-461d-a30c-bc378bac795a",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Center_Text_Position",
+        "position": [
+          500,
+          -28
+        ],
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:207526-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+        "modelName": "template_patch_model",
+        "name": "If Then Else",
+        "position": [
+          -242,
+          10
+        ],
+        "templateId": "builtin.IfThenElseOperator",
+        "values": [],
+        "variantInfo": "vec3"
+      },
+      {
+        "identifier": "template_patch_model:207598-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+        "modelName": "template_patch_model",
+        "name": "Bounding Box",
+        "position": [
+          -460,
+          -100
+        ],
+        "templateId": "builtin.boundingBox",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:207798-58d874dc-38ed-40c8-91cd-12eb2e83161f",
+        "modelName": "template_patch_model",
+        "name": "If Then Else",
+        "position": [
+          -242,
+          -110
+        ],
+        "templateId": "builtin.IfThenElseOperator",
+        "values": [],
+        "variantInfo": "vec3"
+      },
+      {
+        "identifier": "template_patch_model:929646-4e2d8f09-7549-4e8a-8aa4-97d0263da281",
+        "modelName": "template_patch_model",
+        "name": "Subtract",
+        "position": [
+          94,
+          -38
+        ],
+        "templateId": "builtin.variadicMathSub",
+        "values": [],
+        "variadicInfo": {
+          "input": 2
+        },
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:929786-4e2d8f09-7549-4e8a-8aa4-97d0263da281",
+        "modelName": "template_patch_model",
+        "name": "Divide",
+        "position": [
+          286,
+          -38
+        ],
+        "templateId": "builtin.variadicMathDiv",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 2
+            }
+          }
+        ],
+        "variadicInfo": {
+          "input": 2
+        },
+        "variantInfo": "float"
+      }
+    ],
+    "ports": [
+      {
+        "defaultValue": {
+          "t": "double",
+          "v": 0
+        },
+        "forwardingPatch": "port_forwarding_patch_model:799265-565b88f8-bfc0-461d-a30c-bc378bac795a",
+        "identifier": "patch_input_port_model:799741-565b88f8-bfc0-461d-a30c-bc378bac795a",
+        "modelName": "patch_input_port_model",
+        "portDescription": "",
+        "portName": "Object_3DText",
+        "portTag": "2822362267071090403",
+        "portType": "auto",
+        "widgetStyle": "default"
+      },
+      {
+        "defaultValue": {
+          "t": "vec3",
+          "v": [
+            0,
+            0,
+            0
+          ]
+        },
+        "forwardingPatch": "port_forwarding_patch_model:799307-565b88f8-bfc0-461d-a30c-bc378bac795a",
+        "identifier": "patch_output_port_model:799755-565b88f8-bfc0-461d-a30c-bc378bac795a",
+        "modelName": "patch_output_port_model",
+        "portDescription": "",
+        "portName": "Center_Text_Position",
+        "portTag": "15249886221181259793",
+        "portType": "vec3",
+        "widgetStyle": "default"
+      }
+    ]
+  }
+}
